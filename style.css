@@ -1,0 +1,56 @@
+body {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+  
+  }
+  .container {
+    margin: auto;
+    width: 1080px;
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: auto auto auto;
+  }
+  .container div {
+    /* margin: 15px 15px; */
+    gap: 30px;
+  }
+  .score {
+    /* padding: 15px; */
+    font-size: 50px;
+    text-align:center
+  }
+  .heroes {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+  .hero,
+  .villainnn {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 15px;
+  }
+  
+  .hero h2,
+  .villainnn h2{
+    margin: 2px;
+    font-size: 30px;    
+  }
+  .heroes img,
+  .villains img {
+    width: 100px;
+  }
+  
+  .villains {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+  .footer {
+    /* margin-left: 80px; */
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  #ctr{
+    grid-column-start: 3;
+  }
